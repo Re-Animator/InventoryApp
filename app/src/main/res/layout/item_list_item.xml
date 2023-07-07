@@ -25,7 +25,7 @@
     <TextView
         android:id="@+id/item_name"
         style="@style/Widget.Inventory.ListItemTextView"
-        android:layout_width="180dp"
+        android:layout_width="170dp"
         android:layout_marginStart="@dimen/margin_between_elements"
         android:fontFamily="sans-serif"
         app:layout_constraintEnd_toStartOf="@+id/item_price"
@@ -36,9 +36,9 @@
     <TextView
         android:id="@+id/item_price"
         style="@style/Widget.Inventory.ListItemTextView"
-        android:layout_width="100dp"
+        android:layout_width="90dp"
         android:layout_below="@+id/item_name"
-        android:layout_marginStart="@dimen/margin_between_elements"
+        android:layout_marginStart="0dp"
         android:fontFamily="sans-serif-medium"
         android:textAlignment="center"
         app:layout_constraintEnd_toStartOf="@+id/item_quantity"

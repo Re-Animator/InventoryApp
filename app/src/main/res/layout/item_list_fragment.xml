@@ -25,7 +25,7 @@
     <TextView
         android:id="@+id/item_name"
         style="@style/Widget.Inventory.Header"
-        android:layout_marginStart="@dimen/margin_between_elements"
+        android:layout_marginStart="0dp"
         android:text="@string/item"
         app:layout_constraintEnd_toStartOf="@+id/item_price"
         app:layout_constraintHorizontal_weight="2"
@@ -35,7 +35,7 @@
     <TextView
         android:id="@+id/item_price"
         style="@style/Widget.Inventory.Header"
-        android:layout_below="@+id/item_name"
+        android:layout_below="@id/item_name"
         android:layout_marginStart="@dimen/margin_between_elements"
         android:text="@string/price"
         android:textAlignment="center"
@@ -48,7 +48,7 @@
         android:id="@+id/item_quantity"
         style="@style/Widget.Inventory.Header"
         android:layout_alignParentEnd="true"
-        android:layout_marginEnd="@dimen/margin_between_elements"
+        android:layout_marginEnd="0dp"
         android:text="@string/quantity_in_stock"
         android:textAlignment="center"
         app:layout_constraintEnd_toEndOf="parent"
